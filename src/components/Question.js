@@ -23,6 +23,7 @@ function Question({ question, onAnswered }) {
     onAnswered(isCorrect);
   }
 
+  
   const { id, prompt, answers, correctIndex } = question;
 
   return (
